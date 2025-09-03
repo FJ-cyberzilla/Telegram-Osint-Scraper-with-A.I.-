@@ -1,0 +1,23 @@
+{
+    "telegram": {
+        "api_id": "YOUR_TELEGRAM_API_ID",
+        "api_hash": "YOUR_TELEGRAM_API_HASH",
+        "session_name": "telegram_osint"
+    },
+    "scraping": {
+        "targets": ["@channel1", "@group1"]
+    },
+    "apis": {
+        "shodan": "YOUR_SHODAN_API_KEY",
+        "netlet": "YOUR_NETLET_API_KEY",
+        "ipscraper": "YOUR_IPSCRAPER_API_KEY",
+        "malboxer": "YOUR_MALBOXER_API_KEY"
+    },
+    "database": {
+        "path": "telegram_osint.db"
+    },
+    "analysis": {
+        "similarity_threshold": 0.7,
+        "anomaly_contamination": 0.1
+    }
+}
